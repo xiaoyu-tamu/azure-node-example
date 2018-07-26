@@ -3,6 +3,7 @@ const port = process.env.PORT || 3000;
 
 const handler = (req, res) => {
   console.log('Server received request.');
+  console.log(process.env.SECRET_EXAMPLE);
   res.end('Hello From Github');
 };
 
