@@ -4,7 +4,7 @@ LOCATION="centralus"
 PLANNAME="appsvc_asp_linux_centralus"
 PLANSKU="B1"
 SITENAME="simple-node-app-unique"
-RUNTIME="node|8.9"
+RUNTIME="node|10.1.0"
 
 # # login supports device login, username/password, and service principals
 # # see https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest#az_login
